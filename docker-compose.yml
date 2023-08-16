@@ -18,7 +18,7 @@ services:
             - 8000:8000
         volumes:
             - ./data:/data
-            # - ./etc/crontabs:/var/spool/cron/crontabs  # uncomment this and archivebox_scheduler below to set up automatic recurring archive jobs
+            - ./etc/crontabs:/var/spool/cron/crontabs  # uncomment this and archivebox_scheduler below to set up automatic recurring archive jobs
             # - ./archivebox:/app/archivebox             # uncomment this to mount the ArchiveBox source code at runtime (for developers working on archivebox)
         # build: .                                       # uncomment this to build the image from source code at buildtime (for developers working on archivebox)
         # dns:                                           # uncomment this and pihole container below for ad-blocking during archiving
