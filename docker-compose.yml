@@ -46,7 +46,6 @@ services:
             - SAVE_WARC=False
             - SAVE_PDF=False
             - SAVE_SCREENSHOT=False
-            - SAVE_SCREENSHOT=False
             - SAVE_SINGLEFILE=False
             - SAVE_READABILITY=False
             - SAVE_MERCURY=False
