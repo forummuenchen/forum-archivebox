@@ -40,19 +40,6 @@ services:
             # ...
             # add further configuration options from archivebox/config.py as needed (to apply them only to this container)
             # or set using `docker compose run archivebox config --set SOME_KEY=someval` (to persist config across all containers)
-            
-            # Forum Config: Only save to Internet Archive
-            - SAVE_FAVICON=False
-            - SAVE_WGET=False
-            - SAVE_WARC=False
-            - SAVE_PDF=False
-            - SAVE_SCREENSHOT=False
-            - SAVE_SINGLEFILE=False
-            - SAVE_READABILITY=False
-            - SAVE_MERCURY=False
-            - SAVE_GIT=False
-            - SAVE_MEDIA=False
-            - SAVE_ARCHIVE_DOT_ORG=True
 
 
     ######## Optional Addons: tweak examples below as needed for your specific use case ########
