@@ -116,7 +116,7 @@ services:
        volumes:
            - ./data:/data
            - ./etc/crontabs:/var/spool/cron/crontabs
-           - ./urls_test.txt
+           - ./urls_test.txt:./urls_test.txt
        # cpus: 2                               # uncomment / edit these values to limit container resource consumption
        # mem_limit: 2048m
        # shm_size: 1024m
